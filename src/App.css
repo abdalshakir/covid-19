@@ -11,10 +11,16 @@ body {
   flex: 0.9;
 }
 
+.app__right {
+  padding-top: 10px;
+}
+
 .app__header {
   display: flex;
   justify-content: space-between;
   background: #7e9eb4;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 5px;
   height: 80px;
 }
@@ -29,11 +35,18 @@ body {
 
 .app__info {
   display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
 }
 
 .table{
   overflow-y: scroll;
-  height: 400px;
+  height: 450px;
   color: #6a5d5d
 }
 

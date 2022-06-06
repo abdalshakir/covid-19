@@ -4,7 +4,7 @@ import { Card, CardContent, Typography } from '@material-ui/core';
 function InfoCard({ title, cases, total }) {
     return (
         <div>
-            <Card>
+            <Card className='card'>
                 <CardContent>
                     <Typography color='textSecondary'>{title}</Typography>
                     <Typography color='textSecondary' variant='h4'>{cases}</Typography>
@@ -15,5 +15,4 @@ function InfoCard({ title, cases, total }) {
     )
 }
 
-export default InfoCard
-
+export default InfoCard;
